@@ -59,7 +59,6 @@ AADInternals,default user agent used by AADInternals,Compliance,https://github.c
 *HeadlessChrome*,msedge.exe user agent in headless mode,Collection,https://developer.chrome.com/blog/headless-chrome/,high,medium,medium,Hunting,network flow direction internal --> external
 *HeadlessEdg*,msedge.exe user agent in headless mode,Collection,https://developer.chrome.com/blog/headless-chrome/,high,medium,medium,Hunting,network flow direction internal --> external
 *Kali linux*,Kali linux offensive distribution,Exploitation,N/A,critical,none,critical,Detection rule,network flow direction internal --> internal/external
-*Mozilla/4.0 (Hydra)*,default user agent for thc-hydra Bruteforce tool,Credential Access,https://github.com/vanhauser-thc/thc-hydra/blob/16b424af4db7f49d09b4a9157e805040ebff23ee/hydra-http.c#L121,critical,none,critical,Detection rule,network flow direction internal --> external
 *NDES client *,certreq.exe,LOLBIN,https://github.com/Ekitji/Files/blob/main/user-agents.csv,high,low,medium,Hunting,network flow direction internal --> external
 *Nmap Scripting Engine*,nmap nse default user agent,Vulnerability Scanner,https://github.com/nmap/nmap/blob/ff92f5bae941058fae4782167fc7cb49b29c9440/scripts/http-useragent-tester.nse#L23,high,none,high,Detection rule,network flow direction internal --> internal/external
 *OpenVAS*,OpenVAS Vulnerability scanner user agent,Vulnerability Scanner,N/A,critical,none,critical,Detection rule,network flow direction internal --> internal/external
